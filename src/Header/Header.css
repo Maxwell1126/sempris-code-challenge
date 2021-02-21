@@ -1,0 +1,10 @@
+.head{
+    padding-top:10px;
+    background-image: linear-gradient(white,#C8E8EB, white,#C8E8EB,white);
+    font-family: Courier New;
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    height:100px;
+}
