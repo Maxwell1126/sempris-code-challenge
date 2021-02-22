@@ -7,8 +7,9 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const weatherRouter = require('./Weather.router');
 
-
+app.use('/api/weather', weatherRouter);
 
 app.use(express.static('build'));
 
