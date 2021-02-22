@@ -1,0 +1,13 @@
+.foot{
+    padding-top:10px;
+    background-image: linear-gradient( white,#C8E8EB);
+    font-family: Courier New;
+    font-style: oblique;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    height:100px;
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+}
