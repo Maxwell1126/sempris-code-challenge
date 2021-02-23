@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Weather.css';
+import Grid from '@material-ui/core/Grid';
 
 class Weather extends Component {
     constructor(props) {
@@ -8,7 +9,13 @@ class Weather extends Component {
     render() {
         return (
             <div>
-                <h6>Place holder</h6>
+                <Grid className='container'
+                    container xs
+                    direction="column"
+                    justify="center"
+                    alignItems="center">
+                    <h6>Place holder</h6>
+                </Grid>
             </div>
         )
     }
