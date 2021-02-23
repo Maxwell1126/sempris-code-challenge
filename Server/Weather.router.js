@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
         url: `${BASE_URL}`
     }).then((response) => {
         console.log(response.data);
-        //res.send(response);
+        res.send(response.data);
     }).catch((error) => {
         console.log('Error in GET', error);
         res.sendStatus(500);
